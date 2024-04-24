@@ -86,7 +86,6 @@ public class PersonDataAccessObject extends DataAccessObject {
                                                                 } catch (Exception exception) {
                                                                     throw new RuntimeException(exception);
                                                                 }})
-                                                            .peek(System.out::println)
                                                             .map(Statement.class::cast)
                                                             .toList()));
             }
