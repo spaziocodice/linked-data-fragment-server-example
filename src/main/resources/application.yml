@@ -1,0 +1,13 @@
+fraglink:
+  dataset:
+    name: spaziocodice
+  base:
+    url: http://127.0.0.1:8080
+spring:
+  datasource:
+    url: "jdbc:h2:mem:exampleldf"
+spring.jpa.hibernate.ddl-auto: update
+spring.jpa.show-sql: true
+logging.level.org.hibernate.SQL: DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+logging.level.org.h2: DEBUG
